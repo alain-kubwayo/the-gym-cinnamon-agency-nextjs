@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navigation from "../components/sections/Navigation";
+import Test from "../components/Test";
 
 export default function Home() {
   return (
@@ -12,6 +12,8 @@ export default function Home() {
         />
         <link rel="icon" href="https://cinnamon.agency//favicon.ico" />
       </Head>
+      <Test />
+      <Test />
     </div>
   );
 }

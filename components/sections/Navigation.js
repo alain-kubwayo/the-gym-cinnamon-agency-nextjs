@@ -1,9 +1,24 @@
+import { useEffect, useState } from "react";
 import Navbar from "../navbar/Navbar";
 
 const Navigation = () => {
+  const [nav, setNav] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", function () {
+      this.window.scrollY >= 2 ? setNav(true) : setNav(false);
+    });
+  }, [nav]);
+
   return (
-    <section className="py-4 bg-black bg-noise-texture">
-      <Navbar />
+    <section
+      className={
+        nav
+          ? "bg-white fixed top-0 w-full py-4 text-black"
+          : "fixed top-0 w-full py-4 bg-black bg-noise-texture"
+      }
+    >
+      <Navbar nav={nav} />
     </section>
   );
 };
