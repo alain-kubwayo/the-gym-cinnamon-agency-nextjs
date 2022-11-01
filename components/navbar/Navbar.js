@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between max-w-6xl px-3 mx-auto">
       <div>
-        <Image src="/svgs/Logo.svg" width={160} height={20} alt="Logo" />
+        <Image src="/svgs/logo.svg" width={160} height={20} alt="Logo" />
       </div>
       <div className="flex items-center justify-between space-x-10">
         <ul className="flex">
