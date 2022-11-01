@@ -15,7 +15,7 @@ const Navigation = () => {
       className={
         nav
           ? "bg-white fixed top-0 w-full py-4 text-black"
-          : "fixed top-0 w-full py-4 bg-black bg-noise-texture"
+          : "fixed top-0 w-full py-4  bg-noise-texture backdrop-brightness-[.15]"
       }
     >
       <Navbar nav={nav} />

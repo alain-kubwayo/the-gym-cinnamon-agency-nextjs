@@ -1,6 +1,6 @@
 const Test = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-400">
+    <div className="flex items-center justify-center bg-gray-400">
       Hello World
     </div>
   );

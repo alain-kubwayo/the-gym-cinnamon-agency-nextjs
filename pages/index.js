@@ -12,8 +12,24 @@ export default function Home() {
         />
         <link rel="icon" href="https://cinnamon.agency//favicon.ico" />
       </Head>
-      <Test />
-      <Test />
+      <div className="mt-96">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        provident reprehenderit dignissimos fugit repudiandae unde quo placeat
+        repellendus. Ex quasi ipsa distinctio obcaecati assumenda nihil,
+        voluptatum beatae magnam aperiam facere?
+      </div>
+      <div className="mt-96">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        provident reprehenderit dignissimos fugit repudiandae unde quo placeat
+        repellendus. Ex quasi ipsa distinctio obcaecati assumenda nihil,
+        voluptatum beatae magnam aperiam facere?
+      </div>
+      <div className="mt-96">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        provident reprehenderit dignissimos fugit repudiandae unde quo placeat
+        repellendus. Ex quasi ipsa distinctio obcaecati assumenda nihil,
+        voluptatum beatae magnam aperiam facere?
+      </div>
     </div>
   );
 }
