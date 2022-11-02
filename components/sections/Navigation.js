@@ -14,7 +14,7 @@ const Navigation = () => {
     <section
       className={
         nav
-          ? "bg-white fixed top-0 w-full py-4 text-black"
+          ? "bg-white fixed top-0 w-full text-black"
           : "fixed top-0 w-full py-4  bg-noise-texture backdrop-brightness-[.15]"
       }
     >
