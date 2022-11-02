@@ -12,10 +12,8 @@ const Navigation = () => {
 
   return (
     <section
-      className={
-        nav
-          ? "bg-white fixed top-0 w-full text-black"
-          : "fixed top-0 w-full py-4  bg-noise-texture backdrop-brightness-[.15]"
+      className={`fixed z-10 top-0 w-full py-4 ${nav ? "bg-white text-black" : "bg-transparent text-white"}
+          `
       }
     >
       <Navbar nav={nav} />

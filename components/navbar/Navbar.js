@@ -27,7 +27,7 @@ const links = [
 
 const Navbar = ({ nav }) => {
   return (
-    <div className="flex items-center justify-between max-w-6xl px-6 py-4 mx-auto md:px-3">
+    <div className="flex items-center justify-between max-w-6xl px-6 mx-auto md:px-3">
       <div>
         {nav ? (
           <Image

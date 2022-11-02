@@ -13,11 +13,35 @@ module.exports = {
       colors: {
         primary: "rgb(28, 28, 28)",
         secondary: "#5135FF",
+        cards: {
+          100: "#91F1C3",
+          200: "#50227D",
+          300: "#FFCB49",
+        },
+        highlight: {
+          50: "#CFCFCF",
+          70: "#F6F6F6",
+          100: "#666666",
+          150: "#525252",
+          200: "#222222",
+        }
       },
       backgroundImage: {
         "noise-texture": "url('/noise.png')",
       },
+      fontSize: {
+        "7.5xl": "5rem",
+        "4.5xl": "2.5rem",
+        "3.5xl": "2rem",
+        "5.5xl": "3.375rem"
+      },
+      lineHeight: {
+        '6.5': "1.625rem"
+      },
+      padding: {
+        '245px': '15.313rem'
+      }
     },
   },
   plugins: [],
-};
+}

@@ -1,5 +1,10 @@
 import Head from "next/head";
-import Test from "../components/Test";
+import Hero from "../components/sections/Hero";
+import HomeCards from "../components/sections/HomeCards";
+import Services from "../components/sections/Services";
+import Agile from "../components/sections/Agile";
+import Communication from "../components/sections/Communication";
+import Departments from "../components/sections/Departments";
 
 export default function Home() {
   return (
@@ -12,24 +17,13 @@ export default function Home() {
         />
         <link rel="icon" href="https://cinnamon.agency//favicon.ico" />
       </Head>
-      <div className="mt-96">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        provident reprehenderit dignissimos fugit repudiandae unde quo placeat
-        repellendus. Ex quasi ipsa distinctio obcaecati assumenda nihil,
-        voluptatum beatae magnam aperiam facere?
-      </div>
-      <div className="mt-96">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        provident reprehenderit dignissimos fugit repudiandae unde quo placeat
-        repellendus. Ex quasi ipsa distinctio obcaecati assumenda nihil,
-        voluptatum beatae magnam aperiam facere?
-      </div>
-      <div className="mt-96">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        provident reprehenderit dignissimos fugit repudiandae unde quo placeat
-        repellendus. Ex quasi ipsa distinctio obcaecati assumenda nihil,
-        voluptatum beatae magnam aperiam facere?
-      </div>
+      <Hero />
+      <HomeCards />
+      <Services />
+      <Agile />
+      <Communication />
+      <Departments />
+      
     </div>
   );
 }
