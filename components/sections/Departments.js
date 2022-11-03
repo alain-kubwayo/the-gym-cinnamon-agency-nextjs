@@ -19,7 +19,7 @@ const Departments = () => {
         <section className="relative bg-highlight-70">
         <div className="max-w-6xl px-6 py-24 mx-auto md:py-245px md:px-3">
             <div className="space-y-16">
-                <h1 className="text-4.5xl md:text-5.5xl font-bolded text-highlight-200 leading-tight -mt-2 w-2/3">Who we are</h1>
+                <h1 className="text-4.5xl md:text-5.5xl font-bolded text-highlight-200 leading-tight -mt-2 w-full md:w-2/3">Who we are</h1>
                 <p className="w-full md:w-1/2 text-base text-highlight-150 leading-6.5">Meet our international teams made up of 86 innovators, branched into 8 departments, that influence the market throughout 20 different countries.</p>
                 <Image width={280} height={444.06} src="/departments-img.png" alt="Image" className="block md:hidden" />
                 <ul className="hidden w-2/3 grid-cols-2 md:grid gap-y-8 ">
