@@ -9,6 +9,7 @@ import College from "../components/sections/College";
 import Positions from "../components/sections/Positions";
 import Topics from "../components/sections/Topics";
 import CallToAction from "../components/sections/CallToAction";
+import Footer from "../components/sections/Footer";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
       <Positions />
       <Topics />
       <CallToAction />
-      
+      <Footer />
     </div>
   );
 }

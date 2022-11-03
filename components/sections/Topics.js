@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import TopicCard from "../cards/Topic";
 
-// imageURL, tag, author, date, duration, title
 const cards = [
     {
         imageURL: "/topics/Freelance_VS.webp",
@@ -38,7 +37,7 @@ const Topics = () => {
         <section className="bg-white">
             <div className="max-w-6xl px-6 py-40 mx-auto md:px-3">
                 <div className="space-y-16">
-                    <h1 className="text-highlight-200 font-bolded text-5.5xl">Stay in the loop <br /> on tech topics</h1>
+                    <h1 className="text-highlight-200 font-bolded text-4.5xl md:text-5.5xl">Stay in the loop <br /> on tech topics</h1>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8">
                         {
                             cards.map(card => <TopicCard {...card} key={card.id} />)
