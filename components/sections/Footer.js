@@ -93,8 +93,8 @@ const Footer = () => {
                     </div>
                     <ul className="flex space-x-5">
                         {socialIconPaths.map((path, i) => (
-                            <Link href="#">
-                                <Image key={i} src={path} width={21} height={21} alt="Social" />
+                            <Link href="#" key={i}>
+                                <Image src={path} width={21} height={21} alt="Social" />
                             </Link>
                         ))}
                     </ul>
@@ -102,8 +102,8 @@ const Footer = () => {
                 <div className="flex flex-col md:hidden">
                     <ul className="flex justify-center py-6 space-x-5 border-y border-highlight-300">
                         {socialIconPaths.map((path, i) => (
-                            <Link href="#">
-                                <Image key={i} src={path} width={21} height={21} alt="Social" />
+                            <Link href="#" key={i}>
+                                <Image src={path} width={21} height={21} alt="Social" />
                             </Link>
                         ))}
                     </ul>
