@@ -4,7 +4,7 @@ import Link from "next/link";
 const Communication = () => {
     return ( 
         <section className="bg-white">
-            <div className="max-w-6xl px-3 py-40 mx-auto md:px-6">
+            <div className="max-w-6xl px-6 py-40 mx-auto md:px-3">
                 <div className="flex justify-between">
                     <div className="w-full space-y-10 md:w-2/3">
                         <h1 className="text-3.5xl md:text-4.5xl font-bolded text-highlight-200">They’re consistent, and the communication is good.</h1>

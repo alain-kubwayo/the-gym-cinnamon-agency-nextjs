@@ -17,7 +17,7 @@ const departments = [
 const Departments = () => {
     return ( 
         <section className="relative bg-highlight-70">
-        <div className="max-w-6xl px-3 py-24 mx-auto md:py-245px md:px-6">
+        <div className="max-w-6xl px-6 py-24 mx-auto md:py-245px md:px-3">
             <div className="space-y-16">
                 <h1 className="text-4.5xl md:text-5.5xl font-bolded text-highlight-200 leading-tight -mt-2 w-2/3">Who we are</h1>
                 <p className="w-full md:w-1/2 text-base text-highlight-150 leading-6.5">Meet our international teams made up of 86 innovators, branched into 8 departments, that influence the market throughout 20 different countries.</p>

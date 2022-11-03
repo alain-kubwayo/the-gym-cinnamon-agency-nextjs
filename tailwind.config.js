@@ -24,7 +24,9 @@ module.exports = {
           100: "#666666",
           150: "#525252",
           200: "#222222",
-        }
+          300: "#3F3F3F",
+        },
+        separator: "#FFCB47",
       },
       backgroundImage: {
         "noise-texture": "url('/noise.png')",
@@ -36,10 +38,13 @@ module.exports = {
         "5.5xl": "3.375rem"
       },
       lineHeight: {
-        '6.5': "1.625rem"
+        '6.5': "1.625rem",
+        '11': "3.5rem",
+        '18': "4.5rem"
       },
       padding: {
-        '245px': '15.313rem'
+        '245px': '15.313rem',
+        '184': '11.5rem'
       }
     },
   },
