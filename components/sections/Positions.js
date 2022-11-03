@@ -18,8 +18,8 @@ const cards = [
 
 const Positions = () => {
     return ( 
-        <section className="py-24 md:pt-48 md:pb-40 bg-noise-texture backdrop-brightness-[.15]">
-            <div className="max-w-6xl px-6 mx-auto space-y-6 md:px-3">
+        <section className="py-24 md:pt-48 md:pb-40 bg-noise-texture backdrop-brightness-[.11]">
+            <div className="px-5 mx-auto space-y-6 max-w-main-width md:px-0">
                 <div className="flex flex-col space-x-0 space-y-28 md:flex-row md:items-center md:justify-between md:space-y-0 md:space-x-10">
                     <div className="space-y-6">
                         <h1 className="text-4.5xl md:text-5.5xl text-white font-bolded">

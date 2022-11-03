@@ -3,7 +3,7 @@ import Link from "next/link";
 import PrimaryButton from "../button/PrimaryButton";
 import Location from "../cards/Location";
 
-// {city, mainStreet, substreet, telephone}
+
 const locations = [
     {
         city: "Zagreb",
@@ -35,8 +35,8 @@ const socialIconPaths = ["/footer/socials/linkedin.svg", "/footer/socials/dribbl
 
 const Footer = () => {
     return ( 
-        <section className="pt-32 md:pt-48 bg-noise-texture backdrop-brightness-[.15]">
-            <div className="max-w-6xl px-6 mx-auto space-y-6 md:px-3">
+        <section className="pt-32 md:pt-48 bg-noise-texture backdrop-brightness-[.11]">
+            <div className="px-5 mx-auto space-y-6 max-w-main-width md:px-0">
                 <div className="flex flex-col md:flex-row md:justify-between md:space-x-52">
                     <div className="flex flex-col justify-between">
                         <div>
@@ -70,7 +70,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="flex flex-col justify-between w-full space-y-6 md:space-y-0 md:flex-row"> 
-                            <div className="flex flex-col justify-between pb-10 space-y-6 md:pb-0">
+                            <div className="flex flex-col justify-between w-full pb-10 space-y-6 md:w-[275px] md:pb-0">
                                 <h6 className="text-base font-bolded text-highlight-70">Our newsletter</h6>
                                 <div class="relative z-0">
                                     <input type="text" id="small_standard" class="block py-2 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border- peer" placeholder=" " />

@@ -4,7 +4,7 @@ import PrimaryButton from "../button/PrimaryButton";
 const College = () => {
     return ( 
         <section className="relative bg-white">
-            <div className="max-w-6xl px-6 mx-auto md:px-3">
+            <div className="px-5 mx-auto max-w-main-width md:px-0">
                 <div className="grid grid-cols-1 py-40 space-y-10 md:grid-cols-3 md:gap-x-40 md:space-y-0">
                     <Image width={300} height={197.98} src="/college-logo.png" alt="Image" className="md:col-span-1"  />
                     <div className="col-span-2 space-y-10">

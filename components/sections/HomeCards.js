@@ -30,7 +30,7 @@ const cards = [
 const HomeCards = () => {
     return (  
         <section className="py-32">
-            <div className="max-w-6xl px-6 mx-auto space-y-20 md:space-y-40 md:px-3">
+            <div className="px-5 mx-auto space-y-20 max-w-main-width md:space-y-40 md:px-0">
                 {
                     cards.map(card => (
                         <Card {...card} key={card.id } />

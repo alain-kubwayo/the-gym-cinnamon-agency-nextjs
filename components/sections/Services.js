@@ -30,8 +30,8 @@ const cards = [
 
 const Services = () => {
     return ( 
-        <section className="pt-48 pb-40 bg-noise-texture backdrop-brightness-[.15]">
-            <div className="max-w-6xl px-6 mx-auto space-y-6 md:px-3">
+        <section className="pt-48 pb-40 bg-noise-texture backdrop-brightness-[.11]">
+            <div className="px-5 mx-auto space-y-6 max-w-main-width md:px-0">
                 <div className="grid grid-cols-1 space-x-0 space-y-10 md:space-y-0 md:gap-x-[128px]- md:grid-cols-12 lg:w-[1120px]">
                     <div className="text-4.5xl md:text-5.5xl text-white font-bolded col-span-5 lg:w-[352px]">
                         Our Services

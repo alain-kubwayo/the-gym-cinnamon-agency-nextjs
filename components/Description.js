@@ -1,6 +1,6 @@
 const Description = ({style, children}) => {
     return ( 
-        <p className={`text-xl ${style}`}>{children}</p>
+        <p className={`text-xl text-highlight-50 ${style}`}>{children}</p>
      );
 }
  
