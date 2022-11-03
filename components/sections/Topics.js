@@ -38,7 +38,7 @@ const Topics = () => {
             <div className="max-w-6xl px-6 py-40 mx-auto md:px-3">
                 <div className="space-y-16">
                     <h1 className="text-highlight-200 font-bolded text-4.5xl md:text-5.5xl">Stay in the loop <br /> on tech topics</h1>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8">
+                    <div className="flex overflow-auto md:grid md:grid-cols-3 gap-x-8 topics">
                         {
                             cards.map(card => <TopicCard {...card} key={card.id} />)
                         }

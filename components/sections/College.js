@@ -13,7 +13,9 @@ const College = () => {
                     </div>
                 </div>
             </div>
-            <Image width={556} height={402} src="/college.png" alt="Image" className="absolute bottom-0 right-0 hidden md:block" />
+            <div className="absolute max-w-[556px] max-h-[402px] overflow-hidden bottom-0 right-0 hidden md:block">
+            <Image width={556} height={402} src="/college.png" alt="Image" className="" />
+            </div>
         </section>
      );
 }

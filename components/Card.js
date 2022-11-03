@@ -13,7 +13,7 @@ const Card = ({background, src, tags, title, description}) => {
                     ))
                 }
             </ul>
-            <h2 className="font-bolded text-3.5xl md:text-4.5xl md:w-1/2 text-highlight-200">{title}</h2>
+            <h2 className="font-bolded text-3.5xl md:text-4.5xl text-highlight-200">{title}</h2>
             <p className="mx-auto text-xl md:mx-0 md:w-7/12">{description}</p>
         </div>
      );

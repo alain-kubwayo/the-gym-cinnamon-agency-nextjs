@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import OfficeCard from "../cards/Office";
 
@@ -28,17 +29,18 @@ const offices = [
 ]
 
 const Offices = () => {
+    const [scrolled, setScrolled] = useState(false);
     return ( 
         <section className="bg-white">
             <div className="max-w-6xl px-6 pt-20 pb-0 mx-auto md:pt-40 md:pb-10 md:px-3">
                 <div className="space-y-14">
                     <h1 className="text-4.5xl md:text-5.5xl font-bolded text-highlight-200">Our offices</h1>
-                    <div className="grid grid-cols-2">
+                    <div className={`flex w-[1696px] transition-all duration-700 ${scrolled ? '-translate-x-[33.95%]':'-translate-x-0'} justify-between- md:gap-8 grid- grid-cols-3- gap-x-8 md:gap-x-20`}>
                         {offices.map(office => <OfficeCard key={office.id} {...office} />)}
                     </div>
-                    <div className="flex space-x-14">
-                        <Image src="/communication/back.png" width={48} height={27} alt="Back" className="duration-500 hover:-translate-y-[30%] cursor-pointer" />
-                        <Image src="/communication/forward.png" width={48} height={27} alt="Forward" className="duration-500 hover:-translate-y-[30%] cursor-pointer" />
+                    <div className="hidden md:flex space-x-14">
+                        <Image src="/communication/back.png" width={48} height={27} alt="Back" className={`duration-500 hover:-translate-y-[30%] cursor-pointer ${scrolled ? '' : 'grayscale hover:-translate-y-0'}`} onClick={()=>setScrolled(false)} />
+                        <Image src="/communication/forward.png" width={48} height={27} alt="Forward" className={`duration-500 hover:-translate-y-[30%] cursor-pointer ${scrolled ? 'grayscale hover:-translate-y-0' : ''}`} onClick={()=>setScrolled(true)} />
                     </div>
                 </div>
             </div>

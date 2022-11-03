@@ -11,3 +11,7 @@
   font-family: "mont-regular";
   src: url("../public/fonts/MontRegular.woff");
 }
+
+.topics::-webkit-scrollbar{
+  display: none;
+}

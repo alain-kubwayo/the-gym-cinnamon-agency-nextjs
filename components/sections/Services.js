@@ -32,13 +32,13 @@ const Services = () => {
     return ( 
         <section className="pt-48 pb-40 bg-noise-texture backdrop-brightness-[.15]">
             <div className="max-w-6xl px-6 mx-auto space-y-6 md:px-3">
-                <div className="grid grid-cols-1 space-x-0 space-y-10 md:space-y-0 md:space-x-10 md:grid-cols-12">
-                    <div className="text-4.5xl md:text-5.5xl text-white font-bolded col-span-5">
+                <div className="grid grid-cols-1 space-x-0 space-y-10 md:space-y-0 md:gap-x-[128px]- md:grid-cols-12 lg:w-[1120px]">
+                    <div className="text-4.5xl md:text-5.5xl text-white font-bolded col-span-5 lg:w-[352px]">
                         Our Services
                     </div>
-                    <div className="col-span-7 space-y-20">
-                        <div className="grid grid-cols-1 gap-20 md:grid-cols-2">
-                            {cards.map(card => <ServiceCard key={card.id} src={card.src} title={card.title} description={card.description} />)}
+                    <div className="col-span-7 space-y-20 lg:w-[640px]">
+                        <div className="grid grid-cols-1 gap-x-[128px] md:grid-cols-2">
+                            {cards.map(card => <ServiceCard key={card.id} {...card} />)}
                         </div>
                         <PrimaryButton text="See Our Services" />
                     </div>

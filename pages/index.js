@@ -14,7 +14,7 @@ import Footer from "../components/sections/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-hidden"> 
       <Head>
         <title>CINNAMON | All software, zero bullshit.</title>
         <meta
