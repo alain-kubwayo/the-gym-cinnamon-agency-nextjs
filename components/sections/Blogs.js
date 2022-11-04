@@ -1,0 +1,45 @@
+import Blog from "../cards/Blog";
+
+const cards = [
+    {
+        background: "bg-cards-100",
+        src: "/assets/blogs/devices.png",
+        tags: ["Product Design", "Quality Assurance"],
+        title: <>Corrily: Optimize prices <br /> to maximize revenue</>,
+        description: "Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.",
+        id: 1
+    },
+    {
+        background: "bg-cards-200",
+        src: "/assets/blogs/devices-2.png",
+        tags: ["Product Design", "Web Development"],
+        title: <>Fiona: Engage & <br /> Decide</>,
+        description: "Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.",
+        id: 2
+    },
+    {
+        background: "bg-cards-300",
+        src: "/assets/blogs/devices-3.png",
+        tags: ["Product Design", "Web Development", "Quality Assurance"],
+        title: <>Ukulele: <br />The largest ukulele tabs archive</>,
+        description: "Ukulele is the number one ukulele community, where players of any level can find the most complete tabs and chords. Cinnamon offered a complete platform redesign including expansions and new features, focusing on keeping the user longer on the website.",
+        id: 3
+    }
+]
+
+const HomeCards = () => {
+    return (  
+        <section className="py-32">
+            <div className="px-5 mx-auto space-y-20 max-w-main-width md:space-y-40 lg:px-0">
+                {
+                    cards.map(card => (
+                        <Blog {...card} key={card.id } />
+                    ))
+                }
+            </div>
+        </section>
+        
+    );
+}
+ 
+export default HomeCards;
