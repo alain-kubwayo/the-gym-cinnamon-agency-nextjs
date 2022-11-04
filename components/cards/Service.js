@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const ServiceCard = ({src, title, description}) => {
+const Service = ({src, title, description}) => {
     return ( 
         <div className="space-y-6">
             <Image src={src} width={48} height={48} alt="Icon" />
@@ -10,4 +10,4 @@ const ServiceCard = ({src, title, description}) => {
      );
 }
  
-export default ServiceCard;
+export default Service;

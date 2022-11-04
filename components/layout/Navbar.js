@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PrimaryButton from "../button/PrimaryButton";
+import PrimaryButton from "../buttons/PrimaryButton";
 import NavigationLink from "./NavigationLink";
 
 const links = [

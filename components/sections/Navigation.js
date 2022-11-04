@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../layout/Navbar";
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import PrimaryButton from "../button/PrimaryButton";
+import PrimaryButton from "../buttons/PrimaryButton";
 import Location from "../cards/Location";
 
 

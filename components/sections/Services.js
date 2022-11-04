@@ -1,5 +1,5 @@
-import ServiceCard from "../ServiceCard";
-import PrimaryButton from "../button/PrimaryButton";
+import ServiceCard from "../cards/Service";
+import PrimaryButton from "../buttons/PrimaryButton";
 
 const cards = [
     {

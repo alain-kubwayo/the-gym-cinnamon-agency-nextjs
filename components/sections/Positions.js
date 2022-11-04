@@ -1,5 +1,5 @@
-import PositionCard from "../PositionCard";
-import PrimaryButton from "../button/PrimaryButton";
+import PositionCard from "../cards/Position";
+import PrimaryButton from "../buttons/PrimaryButton";
 
 const cards = [
     {

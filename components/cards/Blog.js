@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Card = ({background, src, tags, title, description}) => {
+const Blog = ({background, src, tags, title, description}) => {
     return ( 
         <div className="space-y-8">
             <div className={`${background} flex items-center justify-center py-10`}>
@@ -19,4 +19,4 @@ const Card = ({background, src, tags, title, description}) => {
      );
 }
  
-export default Card;
+export default Blog;

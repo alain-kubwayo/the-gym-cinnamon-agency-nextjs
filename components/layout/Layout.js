@@ -1,3 +1,5 @@
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import Navigation from "../sections/Navigation";
 
 const Layout = ({ children }) => {
@@ -5,6 +7,7 @@ const Layout = ({ children }) => {
     <>
       <Navigation />
       {children}
+      <Footer />
     </>
   );
 };

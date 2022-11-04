@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const PositionCard = ({title}) => {
+const Position = ({title}) => {
     return ( 
         <div className="flex items-center justify-between pb-6 border-b border-highlight-300">
             <h2 className="text-2xl text-white font-bolded">{title}</h2>
@@ -9,4 +9,4 @@ const PositionCard = ({title}) => {
     );
 }
  
-export default PositionCard;
+export default Position;

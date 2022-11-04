@@ -1,4 +1,4 @@
-const Location = ({city, mainStreet, substreet, telephone}) => {
+const LocationCard = ({city, mainStreet, substreet, telephone}) => {
     return ( 
         <div>
             <h3 className="text-base text-highlight-70 font-bolded">{city}</h3>
@@ -9,4 +9,4 @@ const Location = ({city, mainStreet, substreet, telephone}) => {
      );
 }
  
-export default Location;
+export default LocationCard;

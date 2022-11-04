@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/sections/Hero";
-import HomeCards from "../components/sections/HomeCards";
+import HomeCards from "../components/sections/Blogs";
 import Services from "../components/sections/Services";
 import Agile from "../components/sections/Agile";
 import Communication from "../components/sections/Communication";
@@ -10,7 +10,7 @@ import Positions from "../components/sections/Positions";
 import Offices from "../components/sections/Offices";
 import Topics from "../components/sections/Topics";
 import CallToAction from "../components/sections/CallToAction";
-import Footer from "../components/sections/Footer";
+import Footer from "../components/layout/Footer";
 
 export default function Home() {
   return (
@@ -34,7 +34,6 @@ export default function Home() {
       <Offices />
       <Topics />
       <CallToAction />
-      <Footer />
     </div>
   );
 }

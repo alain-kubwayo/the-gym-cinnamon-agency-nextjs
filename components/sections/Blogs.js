@@ -1,4 +1,4 @@
-import Card from "../Card";
+import Blog from "../cards/Blog";
 
 const cards = [
     {
@@ -33,10 +33,9 @@ const HomeCards = () => {
             <div className="px-5 mx-auto space-y-20 max-w-main-width md:space-y-40 md:px-0">
                 {
                     cards.map(card => (
-                        <Card {...card} key={card.id } />
+                        <Blog {...card} key={card.id } />
                     ))
                 }
-               
             </div>
         </section>
         
