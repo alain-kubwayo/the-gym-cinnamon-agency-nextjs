@@ -10,7 +10,6 @@ import Positions from "../components/sections/Positions";
 import Offices from "../components/sections/Offices";
 import Topics from "../components/sections/Topics";
 import CallToAction from "../components/sections/CallToAction";
-import Footer from "../components/layout/Footer";
 
 export default function Home() {
   return (

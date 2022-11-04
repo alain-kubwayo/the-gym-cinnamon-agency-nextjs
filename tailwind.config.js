@@ -9,6 +9,8 @@ module.exports = {
       fontFamily: {
         sans: "mont-regular",
         bolded: "mont-bold",
+        semibolded: "mont-semi-bold",
+        heavybolded: "mont-heavy-bold"
       },
       colors: {
         primary: "rgb(28, 28, 28)",
@@ -40,14 +42,18 @@ module.exports = {
       lineHeight: {
         '6.5': "1.625rem",
         '11': "3.5rem",
-        '18': "4.5rem"
+        '18': "4.5rem",
+        '105': "6.563rem",
+        '58': "3.625rem"
       },
       padding: {
         '245px': '15.313rem',
         '184': '11.5rem'
       },
       maxWidth: {
-        'main-width': '1120px'
+        'main-width': '70rem',
+        '640': '40rem',
+        '448': "28rem",
       }
     },
   },

@@ -27,17 +27,17 @@ const links = [
 
 const Navbar = ({ nav }) => {
   return (
-    <div className="flex items-center justify-between w-full px-5 mx-auto max-w-main-width md:px-0">
+    <div className="flex items-center justify-between w-full px-5 mx-auto max-w-main-width lg:px-0">
       <div>
         {nav ? (
           <Image
-            src="/svgs/logo-black.svg"
+            src="/assets/ui/logo-black.svg"
             width={160}
             height={20}
             alt="Logo"
           />
         ) : (
-          <Image src="/svgs/logo.svg" width={160} height={20} alt="Logo" />
+          <Image src="/assets/ui/logo.svg" width={160} height={20} alt="Logo" />
         )}
       </div>
       <div className="items-center justify-between hidden space-x-10 lg:flex">
@@ -46,8 +46,10 @@ const Navbar = ({ nav }) => {
             <NavigationLink text={link.text} key={link.id} />
           ))}
         </ul>
-        <button className={`p-4 transition duration-300 rounded-full ring-2 ring-white ring-inset hover:bg-secondary ${nav ? 'hover:bg-secondary ring-secondary' : ''}`}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill={nav ? "#5135FF" : "bg-red-500"} stroke={ nav ? "#5135FF" : "white"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+        <button className={`p-4 transition duration-300 rounded-full ring-2 ring-white ring-inset hover:bg-secondary ${nav ? 'hover:bg-secondary ring-secondary text-secondary hover:text-white' : ''}`}>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke={ nav ? "#5135FF" : "#ffffff"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+
         </button>
         <PrimaryButton text="Contact Us" />
       </div>

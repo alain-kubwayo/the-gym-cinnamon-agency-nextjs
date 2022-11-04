@@ -12,6 +12,16 @@
   src: url("../public/fonts/MontRegular.woff");
 }
 
+@font-face {
+  font-family: "mont-semibold";
+  src: url("../public/fonts/MontSemiBold.woff");
+}
+
+@font-face {
+  font-family: "mont-heavy-bold";
+  src: url("../public/fonts/MontHeavy.woff2");
+}
+
 .topics::-webkit-scrollbar{
   display: none;
 }

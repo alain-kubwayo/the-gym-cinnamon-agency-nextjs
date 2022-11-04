@@ -30,18 +30,18 @@ const locations = [
 
 const links = ["Home", "Projects", "Services", "About Us", "Careers", "Blog"];
 
-const socialIconPaths = ["/footer/socials/linkedin.svg", "/footer/socials/dribble.svg", "/footer/socials/behance.svg", "/footer/socials/instagram.svg", "/footer/socials/facebook.svg", "/footer/socials/rss.svg"];
+const socialIconPaths = ["/assets/footer/socials/linkedin.svg", "/assets/footer/socials/dribble.svg", "/assets/footer/socials/behance.svg", "/assets/footer/socials/instagram.svg", "/assets/footer/socials/facebook.svg", "/assets/footer/socials/rss.svg"];
 
 
 const Footer = () => {
     return ( 
-        <section className="pt-32 md:pt-48 bg-noise-texture backdrop-brightness-[.11]">
-            <div className="px-5 mx-auto space-y-6 max-w-main-width md:px-0">
-                <div className="flex flex-col md:flex-row md:justify-between md:space-x-52">
+        <section className="pt-24 lg:pt-48 bg-noise-texture backdrop-brightness-[.11]">
+            <div className="px-5 mx-auto space-y-6 max-w-main-width lg:px-0">
+                <div className="flex flex-col md:flex-row md:justify-between md:space-x-16 lg:space-x-52">
                     <div className="flex flex-col justify-between">
                         <div>
                             <Link href="/">
-                                <Image src="/svgs/logo.svg" width={160} height={20} alt="Logo" />
+                                <Image src="/assets/ui/logo.svg" width={160} height={20} alt="Logo" />
                             </Link>
                             <h2 className="block pt-10 text-2xl text-highlight-70 font-bolded md:hidden">All software,<br /> zero bullshit.</h2>
                             <ul className="hidden py-8 space-y-3 text-base md:block text-highlight-50">
@@ -79,7 +79,7 @@ const Footer = () => {
                                 <PrimaryButton text="Subscribe" />
                             </div>
                             <div className="flex flex-col space-y-10">
-                                <Image src="/footer/pangea.svg" width={200} height={56} alt="Image" className="self-center" />
+                                <Image src="/assets/footer/pangea.svg" width={200} height={56} alt="Image" className="self-center" />
                                 <Image src="/footer/clutch-badge.webp" width={216} height={65} alt="Image" className="self-center md:self-start" />
                             </div>
                             <p className="block pt-10 text-sm text-center underline md:hidden text-highlight-70">hello@cinnamon.agency</p>

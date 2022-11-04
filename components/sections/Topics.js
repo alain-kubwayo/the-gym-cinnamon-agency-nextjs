@@ -35,7 +35,7 @@ const cards = [
 const Topics = () => {
     return ( 
         <section className="bg-white">
-            <div className="px-5 py-40 mx-auto max-w-main-width md:px-0">
+            <div className="px-5 py-40 mx-auto max-w-main-width lg:px-0">
                 <div className="space-y-16">
                     <h1 className="text-highlight-200 font-bolded text-4.5xl md:text-5.5xl">Stay in the loop <br /> on tech topics</h1>
                     <div className="flex overflow-auto md:grid md:grid-cols-3 gap-x-8 topics">
@@ -45,7 +45,7 @@ const Topics = () => {
                     </div>
                     <div>
                         <Link href="" className="flex items-center space-x-4">
-                            <Image src="/svgs/drop-right.svg" width={7.54} height={11.3} alt="Icon" />
+                            <Image src="/assets/ui/drop-right.svg" width={7.54} height={11.3} alt="Icon" />
                             <p className="text-base uppercase border-b text-secondary font-bolded border-secondary">View More Blogs</p>
                         </Link>
                     </div>

@@ -14,7 +14,7 @@ const Blog = ({background, src, tags, title, description}) => {
                 }
             </ul>
             <h2 className="font-bolded text-3.5xl md:text-4.5xl text-highlight-200">{title}</h2>
-            <p className="mx-auto text-xl md:mx-0 md:w-7/12">{description}</p>
+            <p className="w-full mx-auto text-xl md:mx-0 lg:w-7/12">{description}</p>
         </div>
      );
 }

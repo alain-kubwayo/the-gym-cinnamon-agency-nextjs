@@ -32,7 +32,7 @@ const Offices = () => {
     const [scrolled, setScrolled] = useState(false);
     return ( 
         <section className="bg-white">
-            <div className="px-5 pt-20 pb-0 mx-auto max-w-main-width md:pt-40 md:pb-10 md:px-0">
+            <div className="px-5 pt-20 pb-0 mx-auto max-w-main-width md:pt-40 md:pb-10 lg:px-0">
                 <div className="space-y-14">
                     <h1 className="text-4.5xl md:text-5.5xl font-bolded text-highlight-200">Our offices</h1>
                     <div className={`flex w-[1696px] transition-all duration-700 ${scrolled ? '-translate-x-[33.95%]':'-translate-x-0'} justify-between- md:gap-8 grid- grid-cols-3- gap-x-8 md:gap-x-20`}>

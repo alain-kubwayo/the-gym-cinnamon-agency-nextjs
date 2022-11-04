@@ -4,7 +4,7 @@ import PrimaryButton from "../buttons/PrimaryButton";
 const CallToAction = () => {
     return ( 
         <section className="relative bg-highlight-70">
-            <div className="px-5 py-20 mx-auto text-center max-w-main-width md:py-40 md:px-0">
+            <div className="px-5 py-20 mx-auto text-center max-w-main-width md:py-40 lg:px-0">
                 <div className="text-highlight-200 font-bolded text-4.5xl md:text-5.5xl leading-11 md:leading-18">
                     <h1 className="hidden md:block">Have a project in mind?</h1>
                     <h1>Let&apos;s work together.</h1>

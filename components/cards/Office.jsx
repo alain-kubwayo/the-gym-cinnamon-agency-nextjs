@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const OfficeCard = ({imageURL, city, street, alt}) => {
+const Office = ({imageURL, city, street, alt}) => {
     return ( 
         <div className="w-[256.5px] md:w-[544px]">
             <Link href="#">
@@ -11,7 +11,7 @@ const OfficeCard = ({imageURL, city, street, alt}) => {
                 </div>
                 <div className="flex mt-8 space-x-2 md:space-x-5">
                     <div className="w-1/6 md:w-auto">
-                        <Image src="/offices/location-icon.svg" width={18} height={18} alt="Map" />
+                        <Image src="/assets/offices/location-icon.svg" width={18} height={18} alt="Map" />
                     </div>
                     <div>
                         <h2 className="text-2xl text-highlight-300 font-bolded">{city}</h2>
@@ -24,4 +24,4 @@ const OfficeCard = ({imageURL, city, street, alt}) => {
      );
 }
  
-export default OfficeCard;
+export default Office;
