@@ -13,8 +13,8 @@ const CallToAction = () => {
                     <PrimaryButton text="Contact us" />
                 </div>
             </div>
-            <Image src="/cta.png" width={"400"} height={"400"} alt="Image" className="absolute bottom-0 left-0 hidden md:block" />
-            <Image src="/cta.png" width={"100"} height={"100"} alt="Image" className="absolute bottom-0 left-0 block md:hidden" />
+            <Image src="/assets/cta/floated.png" width={"400"} height={"400"} alt="Image" className="absolute bottom-0 left-0 hidden md:block" />
+            <Image src="/assets/cta/floated.png" width={"100"} height={"100"} alt="Image" className="absolute bottom-0 left-0 block md:hidden" />
         </section>
      );
 }

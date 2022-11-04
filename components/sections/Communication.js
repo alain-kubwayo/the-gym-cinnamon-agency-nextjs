@@ -17,7 +17,7 @@ const Communication = () => {
                         <p className="text-base text-highlight-150 leading-6.5">When I have a deadline, they would work extra hours on the weekend and after hours. Cinnamon gives the impression of being a smaller team that’s focused on customers.</p>
                         <div className="flex space-x-6">
                             <div>
-                                <Image src="/communication/avatar.png" width={68} height={68} alt="Avatar" />
+                                <Image src="/assets/communication/avatar.png" width={68} height={68} alt="Avatar" />
                             </div>
                             <div>
                                 <h2 className="text-2xl font-bolded text-highlight-200">Garin Toren,</h2>
@@ -31,8 +31,8 @@ const Communication = () => {
                 </div>
                 <div className="flex flex-col pt-10 pb-2 space-y-10 md:pt-6 lg:space-y-0 lg:flex-row lg:justify-between">
                     <div className="flex space-x-14">
-                        <Image src="/communication/back.png" width={48} height={27} alt="Back" className="duration-500 hover:-translate-y-[30%] cursor-pointer" />
-                        <Image src="/communication/forward.png" width={48} height={27} alt="Forward" className="duration-500 hover:-translate-y-[30%] cursor-pointer" />
+                        <Image src="/assets/communication/back.png" width={48} height={27} alt="Back" className="duration-500 hover:-translate-y-[30%] cursor-pointer" />
+                        <Image src="/assets/communication/forward.png" width={48} height={27} alt="Forward" className="duration-500 hover:-translate-y-[30%] cursor-pointer" />
                     </div>
                     <div>
                         <Link href="" className="flex items-center space-x-4">

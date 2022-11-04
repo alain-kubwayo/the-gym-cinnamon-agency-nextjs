@@ -3,7 +3,7 @@ import Blog from "../cards/Blog";
 const cards = [
     {
         background: "bg-cards-100",
-        src: "/devices.png",
+        src: "/assets/blogs/devices.png",
         tags: ["Product Design", "Quality Assurance"],
         title: <>Corrily: Optimize prices <br /> to maximize revenue</>,
         description: "Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.",
@@ -11,7 +11,7 @@ const cards = [
     },
     {
         background: "bg-cards-200",
-        src: "/devices-2.png",
+        src: "/assets/blogs/devices-2.png",
         tags: ["Product Design", "Web Development"],
         title: <>Fiona: Engage & <br /> Decide</>,
         description: "Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.",
@@ -19,7 +19,7 @@ const cards = [
     },
     {
         background: "bg-cards-300",
-        src: "/devices-3.png",
+        src: "/assets/blogs/devices-3.png",
         tags: ["Product Design", "Web Development", "Quality Assurance"],
         title: <>Ukulele: <br />The largest ukulele tabs archive</>,
         description: "Ukulele is the number one ukulele community, where players of any level can find the most complete tabs and chords. Cinnamon offered a complete platform redesign including expansions and new features, focusing on keeping the user longer on the website.",

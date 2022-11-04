@@ -80,7 +80,7 @@ const Footer = () => {
                             </div>
                             <div className="flex flex-col space-y-10">
                                 <Image src="/assets/footer/pangea.svg" width={200} height={56} alt="Image" className="self-center" />
-                                <Image src="/footer/clutch-badge.webp" width={216} height={65} alt="Image" className="self-center md:self-start" />
+                                <Image src="/assets/footer/clutch-badge.webp" width={216} height={65} alt="Image" className="self-center md:self-start" />
                             </div>
                             <p className="block pt-10 text-sm text-center underline md:hidden text-highlight-70">hello@cinnamon.agency</p>
                         </div>

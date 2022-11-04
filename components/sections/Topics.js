@@ -4,7 +4,7 @@ import TopicCard from "../cards/Topic";
 
 const cards = [
     {
-        imageURL: "/topics/Freelance_VS.webp",
+        imageURL: "/assets/topics/Freelance_VS.webp",
         tag: "sales",
         author: "Matija Bermanec & Lorena Ujević",
         date: "2022-10-13",
@@ -13,7 +13,7 @@ const cards = [
         id: 1,
     },
     {
-        imageURL: "/topics/Flutter_Template.webp",
+        imageURL: "/assets/topics/Flutter_Template.webp",
         tag: "development",
         author: "Samantha Holstead",
         date: "2022-10-13",
@@ -22,7 +22,7 @@ const cards = [
         id: 2,
     },
     {
-        imageURL: "/topics/Tinder_blog.webp",
+        imageURL: "/assets/topics/Tinder_blog.webp",
         tag: "design",
         author: "Jan Marin",
         date: "2022-09-15",
